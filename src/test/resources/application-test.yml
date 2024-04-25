@@ -1,0 +1,3 @@
+service:
+  wishlist:
+    size: 5
