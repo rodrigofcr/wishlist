@@ -1,1 +1,11 @@
-spring.application.nam: whishlist
+service:
+  wishlist:
+    size: 20
+
+spring:
+  application:
+    name: wishlist
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      database: WebStore
