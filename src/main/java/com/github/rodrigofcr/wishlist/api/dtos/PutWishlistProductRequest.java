@@ -1,6 +1,8 @@
 package com.github.rodrigofcr.wishlist.api.dtos;
 
+import jakarta.validation.constraints.NotBlank;
+
 public record PutWishlistProductRequest(
-        String name
+        @NotBlank String name
 ) {
 }
